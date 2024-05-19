@@ -17,6 +17,25 @@
 
     <title>Twitter</title>
     
+    <style>
+      ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #000; /* Black track background */
+    border-radius: 10px; /* Rounded track corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007BFF; /* Blue scrollbar thumb */
+    border-radius: 10px; /* Rounded thumb corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0056b3; /* Darker blue thumb on hover */
+}
+    </style>
 
     
   </head>
@@ -140,7 +159,7 @@
                 <span class="material-symbols-outlined text-xl text-[#1d9bf0] cursor-pointer">calendar_month</span>
                 <span class="material-symbols-outlined text-xl text-[#1d9bf0] cursor-pointer">pin_drop</span>
                 </div>
-                <button class="bg-[#1d9bf0] text-white rounded-full flex items-center px-2 py-1 font-semibold mx-5 mr-6 sm:px-5 sm:mx-12 sm:mr-10 w-fit h-fit">
+                <button class="bg-[#1d9bf0] text-white rounded-full flex items-center justify-around px-2 sm:px-4 py-1 font-semibold sm:mx-12 sm:ml-3 w-fit h-fit mx-3">
                   <span class="xl:block hidden">Post</span>
                   <span class="material-symbols-outlined block xl:hidden">
                     edit
